@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="534.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.one_dashboard_multiple_pages.UnitConversionController">
+   <children>
+      <Text layoutX="22.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Convert Unit from" textAlignment="CENTER" wrappingWidth="287.9268798828125">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="41.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To" textAlignment="CENTER" wrappingWidth="226.326904296875">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="fromTextField" layoutX="41.0" layoutY="181.0" prefHeight="26.0" prefWidth="476.0" promptText="Enter Distance to convert">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="toTextField" editable="false" layoutX="41.0" layoutY="353.0" prefHeight="26.0" prefWidth="476.0" promptText="Unit Equivalent  to">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="convertButton" layoutX="41.0" layoutY="432.0" mnemonicParsing="false" onMouseClicked="#performConversion" prefHeight="26.0" prefWidth="476.0" text="Convert">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="fromComboBox" layoutX="331.0" layoutY="103.0" prefHeight="26.0" prefWidth="226.0" visibleRowCount="40" />
+      <ComboBox fx:id="toComboBox" layoutX="310.0" layoutY="269.0" prefHeight="26.0" prefWidth="226.0" visibleRowCount="40" />
+      <ComboBox fx:id="selectUnits" layoutX="331.0" layoutY="26.0" prefHeight="26.0" prefWidth="226.0" promptText="Units" visibleRowCount="40" />
+      <Text layoutX="10.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selects Unit" textAlignment="CENTER" wrappingWidth="287.9268798828125">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

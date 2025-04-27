@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.one_dashboard_multiple_pages.ScientificController">
+   <children>
+      <FlowPane fx:id="flowPane" layoutX="2.0" layoutY="2.0" prefHeight="704.0" prefWidth="600.0" AnchorPane.topAnchor="2.0">
+         <children>
+            <Button fx:id="buttonCopyLast" disable="true" layoutX="337.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="102.0" prefWidth="111.0" text="Copy Expression" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <TextArea fx:id="historyTextField" nodeOrientation="LEFT_TO_RIGHT" prefHeight="104.0" prefWidth="368.0" promptText="History will Appear here">
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextArea>
+            <Button fx:id="buttonCopyFirst" disable="true" layoutX="15.0" layoutY="157.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="104.0" prefWidth="95.0" text="Copy Value" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <TextField fx:id="textField" alignment="CENTER_RIGHT" prefHeight="67.0" prefWidth="588.0" promptText="Enter anything to start calculating">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </TextField>
+            <Button fx:id="buttonOnOff" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="OFF" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonCe" layoutX="10.0" layoutY="114.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="CE" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonC" layoutX="10.0" layoutY="114.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="C">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonBack" layoutX="109.0" layoutY="114.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="&lt;-">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonPie" layoutX="436.0" layoutY="205.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="π" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonCube" layoutX="208.0" layoutY="582.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="x^3" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="button7" layoutX="15.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="7" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="button8" layoutX="119.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="8" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="button9" layoutX="223.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="9">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonDivide" layoutX="327.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="/">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonCosec" layoutX="208.0" layoutY="510.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="cosec" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonSine" layoutX="448.0" layoutY="87.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="sin" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="button4" layoutX="15.0" layoutY="204.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="4" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="button5" layoutX="119.0" layoutY="204.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="5" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="button6" layoutX="223.0" layoutY="204.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="6">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonMultiply" layoutX="327.0" layoutY="204.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="*">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonSec" layoutX="109.0" layoutY="510.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="sec" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonCot" layoutX="308.0" layoutY="510.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="cot" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="button1" layoutX="10.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="1" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="button2" layoutX="109.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="2" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="button3" layoutX="208.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="3">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonMinus" layoutX="308.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="-">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttontan" layoutX="10.0" layoutY="510.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="tan" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonCos" layoutX="436.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="cos" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="button0" layoutX="10.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonDot" layoutX="109.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="." textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonPlus" layoutX="308.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="+">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonEquals" layoutX="208.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#evaluate" prefHeight="76.0" prefWidth="90.0" text="=">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonLn" layoutX="109.0" layoutY="582.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="ln e" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonLog" layoutX="10.0" layoutY="582.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="log 10" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonE" layoutX="436.0" layoutY="205.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="e" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonModX" layoutX="109.0" layoutY="714.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="|x|" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonBracketClose" layoutX="436.0" layoutY="633.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="(" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonBracket" layoutX="109.0" layoutY="582.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text=")" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonExponent" layoutX="10.0" layoutY="714.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="exp" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+            <Button fx:id="buttonFactorial" layoutX="407.0" layoutY="714.0" mnemonicParsing="false" onMouseClicked="#getButtonValue" prefHeight="76.0" prefWidth="90.0" text="n!" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </FlowPane.margin>
+            </Button>
+         </children>
+      </FlowPane>
+   </children>
+</AnchorPane>

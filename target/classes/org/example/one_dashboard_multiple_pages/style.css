@@ -1,0 +1,14 @@
+.homeButton {
+    -fx-background-radius: 20px; /* Rounds button corners */
+    -fx-border-radius: 20px; /* Rounds button borders */
+    -fx-padding: 10px 20px; /* Adds padding */
+    -fx-background-color: #3498db; /* Sets a background color */
+    -fx-text-fill: white; /* Changes text color */
+    -fx-font-size: 14px;
+    -fx-cursor:hand;/* Adjusts font size */
+}
+.backgroundColor{
+    -fx-background-color:#657383;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+}

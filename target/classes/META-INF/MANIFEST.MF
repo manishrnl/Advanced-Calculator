@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: org.example.one_dashboard_multiple_pages.Main
+
