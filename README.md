@@ -127,6 +127,7 @@ Interface	Conversion	Scientific Mode	Standard Mode
 
 ## 📂 Project Structure
 
+```bash
 📁 Advanced-Calculator/
 ├── 📁 src/
 │   ├── 📁 controllers/
@@ -137,4 +138,7 @@ Interface	Conversion	Scientific Mode	Standard Mode
 │   ├── 📁 fxml/
 │   ├── 📁 images/
 │   └── 📄 styles.css
+|   └── 📄 schema.sql
+|
 └── README.md
+```
