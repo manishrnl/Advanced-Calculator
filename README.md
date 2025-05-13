@@ -14,6 +14,14 @@
 ##  🖼️ Preview
 Interface	Conversion	Scientific Mode	Standard Mode
 
+| Currency Converter | Dashboard |
+|-------|-----------|
+| ![Login](img/img1.png) | ![Dashboard](img/img2.png) |
+
+| Scientific Mode | Unit Converter | 
+|-----------------|-----------------|
+| ![Students](img/img3.png) | ![Teachers](img/img4.png) | 
+
 
 
 ---
