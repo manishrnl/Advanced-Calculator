@@ -39,13 +39,13 @@ Interface	Conversion	Scientific Mode	Standard Mode
 
 - Supports brackets, constants, and more
 
-💱** Unit & Currency Converter**
+💱**Unit & Currency Converter**
 
 - Currency exchange between major global currencies
 
 - Unit conversion for length, weight, temperature, etc.
 
-🎨** JavaFX-Based Modern UI**
+🎨**JavaFX-Based Modern UI**
 
 - Responsive interface with organized layout
 
